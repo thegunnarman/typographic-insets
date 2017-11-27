@@ -87,3 +87,16 @@ footer {
 */
 
 /* Write your CSS here */
+figure {
+  float: right;
+  margin:.5em;
+  resize: 6px;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+blockquote {
+  float: left;
+}
