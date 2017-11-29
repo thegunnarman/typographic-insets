@@ -90,7 +90,8 @@ footer {
 figure {
   float: right;
   margin:.5em;
-  resize: 6px;
+  width: 300px;
+  border: 3px
 }
 
 figcaption {
@@ -99,4 +100,21 @@ figcaption {
 
 blockquote {
   float: left;
+  width: 300px;
+  margin:.5em;
+  padding: 6px;
+  font-size: 1.5rem;
+  color: #666;
+
+}
+
+p:first-child::first-letter {
+    font-size: 5rem;
+    color: #f2f2f2;
+    padding: .4em .2em;
+    background-color: #666;
+    float: left;
+    margin: .1em;
+    font-style: normal;
+
 }
