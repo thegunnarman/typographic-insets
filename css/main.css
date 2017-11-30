@@ -90,12 +90,12 @@ footer {
 
 figure {
   float: right;
-  margin:.5em;
+  margin: .5em;
   width: 300px;
   border: 3px;
   padding: 6px;
   border-top: 3px solid #333;
-  border-bottom:3px solid #333;
+  border-bottom: 3px solid #333;
   margin-right: -150px;
 }
 
@@ -107,26 +107,26 @@ figcaption {
 blockquote {
   float: left;
   width: 300px;
-  margin:.5em;
+  margin: .5em;
   padding: 6px;
   font-size: 1.5rem;
   color: #666;
   margin-left: -150px;
   border-top: 3px solid #333;
-  border-bottom:3px solid #333;
+  border-bottom: 3px solid #333;
 
 }
 
 main > p:first-child::first-letter {
-    font-size: 5rem;
-    color: #f2f2f2;
-    padding: .4em .2em;
-    background-color: #666;
-    float: left;
-    margin: .1em;
-    font-style: normal;
-    margin-left: -50px;
-    border-top: 3px solid #333;
-    border-bottom:3px solid #333;
+  font-size: 5rem;
+  color: #f2f2f2;
+  padding: .2em .15em;
+  background-color: #666;
+  float: left;
+  margin: .1em;
+  font-style: normal;
+  margin-left: -50px;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
 
 }
